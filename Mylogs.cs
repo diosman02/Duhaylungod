@@ -12,6 +12,7 @@ namespace Duhaylungod
 {
     class Mylogs
     {
+        //Awedawdaw
         private const string Format = "hh:mm:ss";
 
         Workbook book = new Workbook();
