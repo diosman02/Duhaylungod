@@ -39,15 +39,12 @@ namespace Duhaylungod
             }
             return Errors;
         }
-        private void btnSubmit_Click(object sender, EventArgs e)
+        ////private void btnSubmit_Click(object sender, EventArgs e)
+        ////{
+
+        ////}       
+        private void btnAdd_Click_1(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-
-
             string data = "";
             string gender = "";
             string hobbies = "";
@@ -122,7 +119,7 @@ namespace Duhaylungod
             LblMessage.Text = CheckEmpty();
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnUpdate_Click_1(object sender, EventArgs e)
         {
             btnAdd.Visible = false;
             string data = "";
@@ -195,16 +192,16 @@ namespace Duhaylungod
 
         }
 
-        private void btnDisplay_Click(object sender, EventArgs e)
+        private void btnDisplay_Click_1(object sender, EventArgs e)
         {
             f2.Show();
         }
 
-        private void dtpBirthday_ValueChanged(object sender, EventArgs e)
+        private void dtpBirthday_ValueChanged_1(object sender, EventArgs e)
         {
             string[] d = dtpBirthday.Text.ToString().Split(',');
             txtAge.Text = (2025 - Convert.ToInt32(d[2])).ToString();
         }
-
     }
+
 }

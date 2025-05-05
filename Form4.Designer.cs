@@ -372,6 +372,7 @@
             this.btnNewStudent.TabIndex = 22;
             this.btnNewStudent.Text = "New Student";
             this.btnNewStudent.UseVisualStyleBackColor = true;
+            this.btnNewStudent.Click += new System.EventHandler(this.btnNewStudent_Click);
             // 
             // panel2
             // 

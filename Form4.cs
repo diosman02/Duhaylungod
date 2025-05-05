@@ -16,5 +16,10 @@ namespace Duhaylungod
         {
             InitializeComponent();
         }
+
+        private void btnNewStudent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

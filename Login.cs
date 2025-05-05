@@ -9,7 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace Duhaylungod
 {
 
@@ -19,8 +18,9 @@ namespace Duhaylungod
         public Login()
         {
             InitializeComponent();
-        }
-        private void btnLogin_Click(object sender, EventArgs e)
+        }       
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
         {
             Workbook book = new Workbook();
             book.LoadFromFile(@"C:\Users\ACT-STUDENT\Desktop\BOOK.xlsx");
@@ -63,6 +63,5 @@ namespace Duhaylungod
 
             }
         }
-
     }
 }
